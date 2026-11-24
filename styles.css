@@ -69,6 +69,7 @@ body {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
 }
 
 .odin-quote {
@@ -101,4 +102,30 @@ body {
 
 .hero-image {
   width: 500px;
+}
+
+.info-section {
+  padding: 55px 0;
+}
+
+.image-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 56px 0;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  max-width: 164px;
+  text-align: center;
+}
+
+.image-card img {
+  border-radius: 16px;
 }
