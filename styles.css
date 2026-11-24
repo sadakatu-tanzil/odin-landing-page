@@ -38,6 +38,17 @@ body {
 
 .odin-header-links a {
   text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .odin-button,
@@ -60,6 +71,6 @@ body {
 }
 
 .container {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
 }
