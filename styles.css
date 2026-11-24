@@ -87,8 +87,8 @@ body {
   align-items: center;
 }
 
-.hero-contents-left,
-.hero-contents-right {
+.hero-content-left,
+.hero-content-right {
   flex: 1;
 }
 
