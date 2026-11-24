@@ -167,3 +167,12 @@ body {
 .cta-subtitle {
   color: #e5e7eb;
 }
+
+.odin-footer {
+  padding: 40px 0;
+}
+
+.footer-text {
+  color: #f9faf8;
+  text-align: center;
+}
