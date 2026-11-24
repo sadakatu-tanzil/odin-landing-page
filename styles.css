@@ -3,3 +3,53 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* colors */
+.bg-dark {
+  background-color: #1f2937;
+}
+
+.odin-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.odin-hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.odin-hero-secondary-text,
+.odin-header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.odin-button,
+.odin-cta-bg {
+  background-color: #3882f6;
+}
+
+.odin-info-heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.odin-quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
