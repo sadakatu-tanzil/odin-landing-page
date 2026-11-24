@@ -30,6 +30,16 @@ body {
   color: #e5e7eb;
 }
 
+.odin-header-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.odin-header-links a {
+  text-decoration: none;
+}
+
 .odin-button,
 .odin-cta-bg {
   background-color: #3882f6;
