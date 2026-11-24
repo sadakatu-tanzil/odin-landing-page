@@ -72,14 +72,6 @@ body {
   text-align: center;
 }
 
-.odin-quote {
-  background-color: #e5e7eb;
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 300;
-  font-style: italic;
-}
-
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -128,4 +120,50 @@ body {
 
 .image-card img {
   border-radius: 16px;
+}
+
+.odin-quote {
+  background-color: #e5e7eb;
+  padding: 140px;
+}
+
+.odin-quote-text {
+  max-width: 768px;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.right-text {
+  display: block;
+  text-align: right;
+  font-style: normal;
+}
+
+.cta {
+  padding: 100px 0;
+}
+
+.cta .container {
+  padding: 50px;
+  border-radius: 10px;
+  color: #f9faf8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.odin-button-2 {
+  padding: 8px 12px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.cta-subtitle {
+  color: #e5e7eb;
 }
